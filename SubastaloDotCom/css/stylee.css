@@ -1,0 +1,147 @@
+
+/*
+	Estudiantes:
+	AndrÃ©s Osorio Angel 1094950116
+	Juan Pablo Alzate Villegas 1094943243
+*/
+
+html, body {
+	height:100%;
+        font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    .producto img{
+        width: 150px;
+        height: 150px;
+    }
+    .producto h3,h4{
+        margin: 0;
+    }
+    .producto{
+        height: 200px;
+        margin-left: 50px;
+    }
+}
+
+.barraTitulo{
+    display: block;
+    width: 100%;
+    height: 135px;
+}
+.barraTitulo img{
+    float: left;
+}
+.barraTitulo h1{
+    margin-top: 40px;
+    margin-left: 80px;
+    float: left;
+}
+.formulario{
+    width: 200px;
+    float: right;
+    margin-right: 35px;
+}
+.formulario input{
+    width: 100%;
+    margin: 2px;
+}
+.menubar{
+    height: 50px;
+}
+.menubar ul li{
+    display: inline;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menubar ul{
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+.contenedor{
+    width: 100%;
+    overflow: auto;
+}
+.producto{
+    width: 210px;
+    height: 280px;
+    float: left;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    display: block;
+}
+footer p{
+    text-align: center;
+}
+.registro{
+    font-size: 17px;
+    text-align: center;
+}
+//Asha asha asha asha
+.registro {
+    width: 400px;
+    font: normal bold 12px Verdana, Arial;
+}
+
+.registro label {
+    display: inline-block;
+    text-align: left;
+    text-align: left;
+    width: 150px;
+}
+
+.registro input {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+// Responsive
+
+@media screen and (max-width: 767px) {
+    
+}
+
+
+@media screen and (max-width: 320px) {
+    .barraTitulo img{
+        width: 120px;
+        height: 120px;
+        margin-left: 90px;
+    }
+    .barraTitulo h1{
+        margin-left: 35px;
+        margin-top: 0px;
+    }
+    .formulario{
+        float: left;
+        margin-left: 50px;
+    }
+    .menubar{
+        display: block;
+        float: left;
+        height: 90px;
+    }
+    .producto img{
+        width: 150px;
+        height: 150px;
+    }
+    .producto h3,h4{
+        margin: 0;
+    }
+    .producto{
+        height: 250px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+@media screen and (min-width: 950px) {
+	
+}
